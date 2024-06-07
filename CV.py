@@ -77,7 +77,7 @@ class Ventana():
         self.Frame_A.place(x=600, y=200, height=650, width=250)
 
         #Competencias
-        Label(self.Frame_A, text='Competencias', font=('Arial', 16, 'bold'), bg='#ECECEC').place(x=46, y=20)
+        Label(self.Frame_A, text='Conoscenza', font=('Arial', 16, 'bold'), bg='#ECECEC').place(x=60, y=20)
 
         #Primera competencia
         Label(self.Frame_A, text='Python', font=('Arial', 10, 'bold'), bg='#ECECEC').place(x=16, y=75)
@@ -115,10 +115,10 @@ class Ventana():
         Label(self.Frame_A,  bg='#C2C2C2').place(x=40, y=470, width=210, height=1)
 
         #Idiomas
-        Label(self.Frame_A, text='Idiomas', font=('Arial', 16, 'bold'), bg='#ECECEC').place(x=84, y=480)
+        Label(self.Frame_A, text='Lingue', font=('Arial', 16, 'bold'), bg='#ECECEC').place(x=87, y=480)
 
         #Español
-        Label(self.Frame_A, text='Español', font=('Arial', 10, 'bold'), bg='#ECECEC').place(x=16, y=520)
+        Label(self.Frame_A, text='Spagnolo', font=('Arial', 10, 'bold'), bg='#ECECEC').place(x=16, y=520)
         Label(self.Frame_A,  bg='#303846').place(x=20, y=551, width=212, height=8)
 
         #Italiano
@@ -165,7 +165,7 @@ class Ventana():
         Label(self.Frame_A,  bg='#C2C2C2').place(x=0, y=470, width=215, height=1)
 
         #Italiano
-        Label(self.Frame_A, text='Ingles', font=('Arial', 10, 'bold'), bg='#ECECEC').place(x=16, y=520)
+        Label(self.Frame_A, text='Inglese', font=('Arial', 10, 'bold'), bg='#ECECEC').place(x=50, y=520)
         Label(self.Frame_A,  bg='#BDBDBD').place(x=20, y=551, width=212, height=8)
         Label(self.Frame_A,  bg='#303846').place(x=20, y=551, width=40, height=8)
 
